@@ -1,0 +1,31 @@
+# FILENAME:    wiki.nanorc
+# DESCRIPTION: Wikitext syntax highlighting for GNU nano text editor
+# Version:     0.1
+# DATE:        2022/05/14
+
+syntax "Wikitext" "\.(wiki|wikitext|mediawiki)$"
+
+# Italic OR bold
+color cyan "'"
+# Section
+color cyan "^=*"
+# Bullet list
+color cyan "^\**"
+# Numbered list
+color cyan "^#*"
+# Definition list
+color cyan "^;*"
+# Indent text
+color cyan "^:*"
+# Mix of different types of list
+color cyan "^[\*#;:]*"
+# Preformatted text
+color ,cyan "^[[:space:]]"
+# HTML tag
+color green "<.*>"
+# Comment
+color default start="<!--" end="-->"
+# URL
+color cyan  "\[\[.*\]\]"
+# Template
+color magenta start="\{\{" end="\}\}"
