@@ -1,7 +1,7 @@
 # FILENAME:    wiki.nanorc
 # DESCRIPTION: Wikitext syntax highlighting for GNU nano text editor
-# Version:     0.2
-# DATE:        2022/05/14
+# Version:     0.3
+# DATE:        2022/05/21
 
 syntax "Wikitext" "\.(wiki|wikitext|mediawiki)$"
 
