@@ -15,7 +15,7 @@ color cyan "''.*''"
 # bold, italc
 color cyan "'''.*'''"
 # Section
-color cyan "^=*"
+color cyan start="^=*[[:space:]]" end="[[:space:]]=*$"
 # Bullet list
 color cyan "^\**"
 # Numbered list
